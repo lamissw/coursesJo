@@ -1,0 +1,94 @@
+.row{
+    margin-bottom: 10px; 
+}
+.courses{
+    margin-bottom: 130px;
+    margin-top: 130px;
+}
+
+
+/*.row:after{*/
+/*    content: "";*/
+/*    display: table;*/
+/*    clear: both;*/
+/*    margin-top: 30px;*/
+/*}*/
+.image{
+    width: 15em;
+    height: 20em;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 18px;
+}
+.coursei{
+    width: 15em;
+    height: 20em;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 18px;
+}
+.col-4 h1{
+    font-size: 13pt;
+    margin-bottom: 1px;
+}
+.col-4 h4{
+    font-size: 8pt;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.addToBasket{
+    background-color: black;
+    color: white;
+    width: 240px;
+    height: 30px;
+    cursor: pointer;
+}
+.addToBasket.hover{
+    background-color: gray;
+}
+.courseinfo{
+    position:relative;
+    display: inline-block;
+}
+.courseinfo .description{
+    visibility: hidden;
+    width:300px;
+    height: 20em;
+    background-color: rgb(88, 88, 88);
+    color: black;
+    border-radius: 15pt;
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    bottom: 10%;
+    left: 105%;
+    opacity: 0;
+    transition:opacity 0.5s;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.courseinfo:hover .description{
+    visibility: visible;
+    opacity: 0.98;
+}
+/*@media screen*/
+/*and (min-device-width: 320px)*/
+/*and (max-device-width: 768px){*/
+/*    [class*="col-"] {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+        
+
+/*    }*/
+/*}*/
+/*@media screen*/
+/*    and (min-device-width: 768px)*/
+/*    and (max-device-width: 1024px){*/
+/*        [class*="col-"] {*/
+/*            width: 50%;*/
+/*        }*/
+/*        [class*="col-12"] {*/
+/*            width: 100%;*/
+/*        }*/
+                
+/*}*/
